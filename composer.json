@@ -1,5 +1,5 @@
 {
-    "name": "presta/image-bundle",
+    "name": "prolix/image-bundle",
     "type": "symfony-bundle",
     "description": "Allow to crop local and remote image before uploading them through a classic form.",
     "keywords": ["symfony2", "bundle", "form", "image", "picture", "local", "remote"],
@@ -14,7 +14,7 @@
     "require": {
         "php": ">=5.5.9",
         "symfony/form": "~2.8|~3.0",
-        "vich/uploader-bundle": "^1.1"
+        "vich/uploader-bundle": "^1.6"
     },
     "autoload": {
         "psr-4": {
