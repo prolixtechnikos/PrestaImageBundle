@@ -14,7 +14,7 @@
     "require": {
         "php": ">=5.5.9",
         "symfony/form": "^3.4|^4.0|^5.0",
-        "prolix/uploader-bundle": "2.0.*"
+        "vich/uploader-bundle": "1.12.*"
     },
     "autoload": {
         "psr-4": {
