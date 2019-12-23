@@ -14,7 +14,6 @@ use Symfony\Component\Form\FormInterface;
 use Symfony\Component\Form\FormView;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 use Symfony\Component\OptionsResolver\Options;
-use Symfony\Component\Translation\TranslatorInterface;
 use Vich\UploaderBundle\Handler\UploadHandler;
 use Vich\UploaderBundle\Storage\StorageInterface;
 
@@ -43,7 +42,7 @@ class ImageType extends AbstractType
      * @param StorageInterface $storage
      * @param UploadHandler $handler
      */
-    public function __construct(TranslatorInterface $translator, StorageInterface $storage, UploadHandler $handler)
+    public function __construct($translator, StorageInterface $storage, UploadHandler $handler)
     {
         $this->translator = $translator;
         $this->storage = $storage;
